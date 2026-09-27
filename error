@@ -23,4 +23,16 @@ Universal_Trade_Hub.UTH_FinalOrderMenu:DoWindowContents (UnityEngine.Rect)
 Verse.Window:InnerWindowOnGUI (int)
 UnityEngine.GUI:CallWindowDelegate (UnityEngine.GUI/WindowFunction,int,int,UnityEngine.GUISkin,int,single,single,UnityEngine.GUIStyle)
 
+Same thing with Dead Man's Switch - Renegade clan
+
+Could not find any Silver to transfer to trader.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch6 (string)
+RimWorld.TradeUtility:LaunchThingsOfType (Verse.ThingDef,int,Verse.Map,RimWorld.TradeShip)
+RimWorld.TradeUtility:LaunchSilver (Verse.Map,int)
+DMSRC.TradeRequest:TrySave (DMSRC.GameComponent_Renegades)
+DMSRC.Dialog_Renegades:DoRightRect (UnityEngine.Rect)
+DMSRC.Dialog_Renegades:DoWindowContents (UnityEngine.Rect)
+Verse.Window:InnerWindowOnGUI (int)
+UnityEngine.GUI:CallWindowDelegate (UnityEngine.GUI/WindowFunction,int,int,UnityEngine.GUISkin,int,single,single,UnityEngine.GUIStyle)
 
