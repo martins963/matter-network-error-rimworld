@@ -1,0 +1,26 @@
+when I buy gravship using [BTD] Gravship blueprints mod
+
+Could not find any Silver to transfer to trader.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch6 (string)
+RimWorld.TradeUtility:LaunchThingsOfType (Verse.ThingDef,int,Verse.Map,RimWorld.TradeShip)
+RimWorld.TradeUtility:LaunchSilver (Verse.Map,int)
+RWM_BTD_Remix_GravshipBlueprints.BTD_GravshipBroker:ExecuteSilverPurchase (int)
+RWM_BTD_Remix_GravshipBlueprints.BTD_Dialog_PurchaseGravship/<>c__DisplayClass30_0:<ConfirmSilverPurchase>b__0 ()
+Verse.Dialog_MessageBox:DoWindowContents (UnityEngine.Rect)
+Verse.Window:InnerWindowOnGUI (int)
+UnityEngine.GUI:CallWindowDelegate (UnityEngine.GUI/WindowFunction,int,int,UnityEngine.GUISkin,int,single,single,UnityEngine.GUIStyle)
+
+when I buy stuff using Universal Trade Hub mod
+
+Could not find any Silver to transfer to trader.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch6 (string)
+RimWorld.TradeUtility:LaunchThingsOfType (Verse.ThingDef,int,Verse.Map,RimWorld.TradeShip)
+RimWorld.TradeUtility:LaunchSilver (Verse.Map,int)
+Universal_Trade_Hub.UTH_FinalOrderMenu:PlaceOrderAndScheduleDelivery (single,single,single)
+Universal_Trade_Hub.UTH_FinalOrderMenu:DoWindowContents (UnityEngine.Rect)
+Verse.Window:InnerWindowOnGUI (int)
+UnityEngine.GUI:CallWindowDelegate (UnityEngine.GUI/WindowFunction,int,int,UnityEngine.GUISkin,int,single,single,UnityEngine.GUIStyle)
+
+
